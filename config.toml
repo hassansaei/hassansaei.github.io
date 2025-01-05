@@ -167,7 +167,7 @@ publishDir = "docs"
   [[params.main]]
     icon = "fa-file-text"
     icon_pack = "fa"
-    link = "CV_SAEI Hassan_2024.pdf"
+    link = "HS-CV-2024.pdf"
 
   [[params.main]]
     icon = "fa-linkedin"
