@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# hassansaei.github.io
-=======
+
 # Personal Website Repository
 
 This repository contains the content of my personal website hosted at [https://hassansaei.github.io/](https://hassansaei.github.io/). The website is built using [blogdown](https://bookdown.org/yihui/blogdown/), a package for creating static websites with R Markdown and Hugo.
@@ -41,4 +39,3 @@ The website is automatically deployed to GitHub Pages. Ensure that any changes a
 - Hugo
 - RefManager
 - Jean Monlong
->>>>>>> 9a10456 (Deploy personal site)
