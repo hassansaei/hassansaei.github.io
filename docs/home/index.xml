@@ -31,21 +31,21 @@
     </item>
     
     <item>
-      <title>Presentations</title>
-      <link>/home/presentations/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/home/presentations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>/home/publications/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>/home/publications/</guid>
       <description>Using VNtyper from Whole Exome Sequencing Data to Detect Pathogenic Variants in the MUC1 Gene. Journal of the American Society of Nephrology 2024. Hassan Saei, Cécile Masson, Vincent Morinière, Jessica Kachmar, Laurence Heidet, Olivier Gribouval, Corinne Antignac, Guillaume Dorval         A wave of deep intronic mutations in X-linked Alport syndrome. Kidney International 2023. Marie Boisson, Christelle Arrondel, Nicolas Cagnard, Vincent Morinière, Zaïna Aït Arkoub, Hassan Saei, Laurence Heidet, Jessica Kachmar, Aurélie Hummel, Bertrand Knebelmann, Marie-Noëlle Bonnet-Dupeyron, Bertrand Isidor, Hassane Izzedine, Eric Legrand, Philippe Couarch, Olivier Gribouval, Christine Bole-Feysot, Mélanie Parisot, Patrick Nitschké, Corinne Antignac, Guillaume Dorval         VNtyper enables accurate alignment-free genotyping of MUC1 coding VNTR using short-read sequencing data in autosomal dominant tubulointerstitial kidney disease.</description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>/home/presentations/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/home/presentations/</guid>
+      <description></description>
     </item>
     
     <item>
