@@ -11,7 +11,7 @@ disqusShortname = ""
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
-# Default language to use (if you setup multilingual support)
+# Default language to use (if 9you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
@@ -22,7 +22,7 @@ publishDir = "docs"
 
 [blackfriday]
   hrefTargetBlank = true
-  #fractions = false
+  fractions = false
 
 [params]
   name = "Hassan Saei, MSc. PhD."
