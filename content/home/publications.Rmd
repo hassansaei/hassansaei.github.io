@@ -13,7 +13,7 @@ widget: "custom_vertical"
 weight: 3
 
 # Number of publications to list.
-count: 10
+count: 20
 
 # Show publication details (such as abstract)? (true/false)
 detailed_list: false

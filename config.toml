@@ -30,7 +30,7 @@ publishDir = "docs"
   organization = "U 1163, Paris, France"
   organization_url = "https://www.institutimagine.org/en"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "Pasteur_2024.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "IMG_7921.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "hassan.saeiahan@gmail.com"
   address = "Office 516-B1, Inserm UMR 1163, Institut Imagine, 24 boulevard de Montparnasse, 75015 Paris, France"
 #  office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -167,13 +167,12 @@ publishDir = "docs"
   [[params.main]]
     icon = "fa-file-text"
     icon_pack = "fa"
-    link = "HS-CV-2024.pdf"
+    link = "HS-CV-2025.pdf"
 
   [[params.main]]
     icon = "fa-linkedin"
     icon_pack = "fa-brands"
     link = "https://www.linkedin.com/in/hassan-saei/"
-
 
 
 # Navigation Links
