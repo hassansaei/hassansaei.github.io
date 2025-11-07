@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hassan Saei on Hassan Saei</title>
-    <link>/</link>
+    <link>https://hassansaei.github.io/</link>
     <description>Recent content in Hassan Saei on Hassan Saei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,74 +12,74 @@
     
     <item>
       <title>WIDGeT consortium project</title>
-      <link>/project/widget/</link>
+      <link>https://hassansaei.github.io/project/widget/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/project/widget/</guid>
+      <guid>https://hassansaei.github.io/project/widget/</guid>
       <description>&lt;p&gt;The WIDGeT consortium (Viral Vector Intelligent Design for Gene Therapy) aims to accelerate the development of gene therapies using viral vectors derived from adeno-associated viruses (AAV) for the treatment of age-related macular degeneration (AMD) and hereditary podocytopathies (kidney diseases), leveraging the potential of artificial intelligence (AI).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Highly sensitive varinat detection in VNTR is possible with exome sequencing: the example of MUC1-related nephropathy</title>
-      <link>/talk/eshg2024/</link>
+      <link>https://hassansaei.github.io/talk/eshg2024/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>/talk/eshg2024/</guid>
+      <guid>https://hassansaei.github.io/talk/eshg2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinically boosted exome-sequencing is necessary for accurate and highly sensitive genetic diagnosis of ADTKD-MUC1</title>
-      <link>/talk/era2024/</link>
+      <link>https://hassansaei.github.io/talk/era2024/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>/talk/era2024/</guid>
+      <guid>https://hassansaei.github.io/talk/era2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HPRC workshop</title>
-      <link>/teaching/hugo2024/</link>
+      <link>https://hassansaei.github.io/teaching/hugo2024/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/hugo2024/</guid>
+      <guid>https://hassansaei.github.io/teaching/hugo2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developing and characterizing X-linked Alport syndrome kidney organoid model with deep-intronic variation for drug discovery</title>
-      <link>/talk/asmb2024/</link>
+      <link>https://hassansaei.github.io/talk/asmb2024/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/talk/asmb2024/</guid>
+      <guid>https://hassansaei.github.io/talk/asmb2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genotyping coding VNTR in MUC1 gene in ADTKD using SRS data</title>
-      <link>/talk/sfb1453/</link>
+      <link>https://hassansaei.github.io/talk/sfb1453/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>/talk/sfb1453/</guid>
+      <guid>https://hassansaei.github.io/talk/sfb1453/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep-intronic variants in the X-linked Alport syndrome: From detection to therapeutic hopes</title>
-      <link>/talk/14podo_us/</link>
+      <link>https://hassansaei.github.io/talk/14podo_us/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>/talk/14podo_us/</guid>
+      <guid>https://hassansaei.github.io/talk/14podo_us/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A tool to genotype coding VNTR in ADTKD-MUC1</title>
-      <link>/project/adtkd/</link>
+      <link>https://hassansaei.github.io/project/adtkd/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/project/adtkd/</guid>
+      <guid>https://hassansaei.github.io/project/adtkd/</guid>
       <description>&lt;p&gt;Autosomal dominant tubulointerstitial kidney disease (ADTKD) is a hereditary condition characterized by progressive tubulointerstitial fibrosis with or without tubular dilation and atrophy, eventually leading to end-stage kidney failure. The affected individuals present mild to negative proteinuria, and bland urinary sediment abnormalities, with normal kidney size. A positive family history is commonly reported for this disease. Molecular genetics play a key role in diagnosing and classifying ADTKD given their non-specific presentations. Pathogenic variants in different genes, including MUC1, UMOD, HNF1B, REN, and SEC61A1, are known to be responsible for ADTKD. The absence of a mutation does not rule out ADTKD, as other loci remain to be identified. The recent advancements in high-throughput sequencing technology and the pan-genome graph pipelines have improved the diagnostic rate of Mendelian and multigenic complex diseases. However, some challenges remain for accurately detecting pathogenic variants in genes with complex structures. For instance, the detection of variants in the coding variable number tandem repeat (VNTR) region of the MUC1 gene (encoding the mucin-1 protein) responsible for autosomal dominant tubulointerstitial kidney disease-MUC1 (ADTKD-MUC1) is a real issue.&lt;/p&gt;
 
 &lt;p&gt;VNtyper 2.0 is an advanced pipeline designed to genotype MUC1 coding Variable Number Tandem Repeats (VNTR) in Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD-MUC1) using Short-Read Sequencing (SRS) data. This version integrates enhanced variant calling algorithms, robust logging mechanisms, and streamlined installation processes to provide researchers with a powerful tool for VNTR analysis.&lt;/p&gt;
@@ -90,28 +90,28 @@
     
     <item>
       <title>Splice modulation therapy development using XLAS organoid models</title>
-      <link>/project/organoid_aso/</link>
+      <link>https://hassansaei.github.io/project/organoid_aso/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/project/organoid_aso/</guid>
+      <guid>https://hassansaei.github.io/project/organoid_aso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homozygosity mapping in maple syrup urine disease from Iran: Identification and in silico analysis of novel mutations</title>
-      <link>/talk/eshg2018/</link>
+      <link>https://hassansaei.github.io/talk/eshg2018/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/talk/eshg2018/</guid>
+      <guid>https://hassansaei.github.io/talk/eshg2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://hassansaei.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/post/getting-started/</guid>
+      <guid>https://hassansaei.github.io/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -122,7 +122,7 @@
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://hassansaei.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -219,15 +219,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://hassansaei.github.io/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://hassansaei.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://hassansaei.github.io/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
 
@@ -331,10 +331,10 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>/post/widgets/</link>
+      <link>https://hassansaei.github.io/post/widgets/</link>
       <pubDate>Tue, 19 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/post/widgets/</guid>
+      <guid>https://hassansaei.github.io/post/widgets/</guid>
       <description>
 
 &lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
@@ -397,15 +397,15 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Managing content</title>
-      <link>/post/managing-content/</link>
+      <link>https://hassansaei.github.io/post/managing-content/</link>
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://hassansaei.github.io/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://hassansaei.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://hassansaei.github.io/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
@@ -569,10 +569,10 @@ Below is an automatically generated list of all my blog posts!
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>/post/writing-markdown-latex/</link>
+      <link>https://hassansaei.github.io/post/writing-markdown-latex/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/post/writing-markdown-latex/</guid>
+      <guid>https://hassansaei.github.io/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting.&lt;/p&gt;
 
 &lt;p&gt;This article gives an overview of the most common formatting options.&lt;/p&gt;
@@ -820,7 +820,7 @@ print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
 
 &lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://hassansaei.github.io/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
 
@@ -970,10 +970,10 @@ Here&#39;s some important information...
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
+      <link>https://hassansaei.github.io/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
+      <guid>https://hassansaei.github.io/publication/person-re-identification/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

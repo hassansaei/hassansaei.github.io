@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hassan Saei</title>
-    <link>/categories/</link>
+    <link>https://hassansaei.github.io/categories/</link>
     <description>Recent content in Categories on Hassan Saei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Hassan Saei</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hassansaei.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

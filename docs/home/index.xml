@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Hassan Saei</title>
-    <link>/home/</link>
+    <link>https://hassansaei.github.io/home/</link>
     <description>Recent content in Homes on Hassan Saei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Hassan Saei</copyright>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hassansaei.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://hassansaei.github.io/home/about/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://hassansaei.github.io/home/about/</guid>
       <description>I am a human geneticist with a strong interest and experience in genomics and computational analysis of genomic data to diagnose and understand hereditary diseases. My research focuses on identifying and characterizing genetic variants associated with inherited disorders using patient-derived data and disease models. I am currently working at the Laboratory of Hereditary Renal Diseases at the Imagine Institute in Paris. My goal is to integrate genomic analysis with functional modeling to advance genetic diagnostics and develop gene therapies.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://hassansaei.github.io/home/projects/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://hassansaei.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/home/publications/</link>
+      <link>https://hassansaei.github.io/home/publications/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://hassansaei.github.io/home/publications/</guid>
       <description>Phenotypic Heterogeneity of ADTKD-MUC1 Diagnosed Using VNtyper, a Novel Genetic Technique. American Journal of Kidney Diseases 2025. Jessica Kachmar, Hassan Saei, Vincent Morinière, Laurence Heidet, Bertrand Knebelmann, Olivier Gribouval, Manon Mautret-Godefroy, Stéphane Burtey, Vincent Vuiblet, Asma Alla, Axel Ibalanky, Olivier Moranne, Mathilde Nizon, Benjamin Savenkoff, Patrick Nitschké, Corinne Antignac, Guillaume Dorval         Therapeutic splice modulation of COL4A5 reinstates collagen IV assembly in an organoid model of X-linked Alport syndrome.</description>
     </item>
     
     <item>
       <title>Presentations</title>
-      <link>/home/presentations/</link>
+      <link>https://hassansaei.github.io/home/presentations/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/home/presentations/</guid>
+      <guid>https://hassansaei.github.io/home/presentations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://hassansaei.github.io/home/contact/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://hassansaei.github.io/home/contact/</guid>
       <description></description>
     </item>
     

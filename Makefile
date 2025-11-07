@@ -1,7 +1,11 @@
-main: docs/index.html
+.PHONY: main build
 
-docs/index.html: misc/HS-publication.bib static/HS-CV-2025.pdf content/*/*md
+main: build
+
+build:
+	@echo "Building site..."
 	Rscript -e "blogdown::build_site(build_rmd=TRUE)"
+	@echo "Build complete!"
 
 static/HS-CV-2025.pdf: misc/template.pdf
 	cp $< $@

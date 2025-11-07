@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Hassan Saei</title>
-    <link>/teaching/</link>
+    <link>https://hassansaei.github.io/teaching/</link>
     <description>Recent content in Teachings on Hassan Saei</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Hassan Saei</copyright>
     <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hassansaei.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HPRC workshop</title>
-      <link>/teaching/hugo2024/</link>
+      <link>https://hassansaei.github.io/teaching/hugo2024/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/hugo2024/</guid>
+      <guid>https://hassansaei.github.io/teaching/hugo2024/</guid>
       <description></description>
     </item>
     
