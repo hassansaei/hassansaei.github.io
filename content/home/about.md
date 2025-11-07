@@ -12,10 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Genetics & Disease",
+    "Genomics & Bioinformatics",
     "Gene and Nucleic Acid Therapy",
-    "Organoid Models",
-    "Computational Analysis in Hereditary Disease Research"
+    "Organoid Models"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -38,4 +37,4 @@ weight = 1
 
 \ 
 
-My research focuses on identifying and characterizing genetic variants associated with hereditary diseases. Currently, I am working at the Laboratory of Hereditary Renal Diseases, directed by Prof. Corinne Antignac, at the Imagine Institute in Paris. My interests lie in advancing genetic diagnostics and developing robust disease models to facilitate variant characterization and therapy development.
+I am a human geneticist with a strong interest and experience in genomics and computational analysis of genomic data to diagnose and understand hereditary diseases. My research focuses on identifying and characterizing genetic variants associated with inherited disorders using patient-derived data and disease models. I am currently working at the Laboratory of Hereditary Renal Diseases at the Imagine Institute in Paris. My goal is to integrate genomic analysis with functional modeling to advance genetic diagnostics and develop gene therapies.
