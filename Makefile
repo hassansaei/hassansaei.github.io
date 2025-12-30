@@ -7,9 +7,11 @@ build:
 	Rscript -e "blogdown::build_site(build_rmd=TRUE)"
 	@echo "Build complete!"
 
-static/HS-CV-2025.pdf: misc/template.pdf
-	cp $< $@
+# Rule to update CV from template (run manually: make update-cv)
+update-cv: misc/template.pdf
+	cp $< static/HS-CV-2025.pdf
+	@echo "CV updated from template"
 
-serve: static/HS-CV-2025.pdf
+serve:
 	Rscript -e "blogdown::build_site()"
 	Rscript -e "blogdown::serve_site()"
