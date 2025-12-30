@@ -9,7 +9,7 @@ title = "A tool to genotype coding VNTR in ADTKD-MUC1"
 summary = "VNtyper: a tool to genotype MUC1 VNTR using SRS data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "ADTKD.jpeg"
+image_preview = "ADTKD-MUC1.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "ADTKD.jpeg"
+image = "ADTKD-MUC1.jpg"
 #caption = "My caption :smile:"
 
 +++

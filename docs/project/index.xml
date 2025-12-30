@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Hassan Saei</copyright>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hassansaei.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Splice modulation therapy development using XLAS organoid models</title>
+      <link>https://hassansaei.github.io/project/organoid_aso/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/project/organoid_aso/</guid>
+      <description>Kidney organoids are an emerging tool for disease modeling, especially genetic diseases. Among these diseases, X-linked Alport syndrome (XLAS) is a hematuric nephropathy affecting the glomerular basement membrane (GBM) secondary to pathogenic variations in the COL4A5 gene encoding the α5 subunit of type IV collagen [α5(IV)]. In patients carrying pathogenic variations affecting splicing, the use of antisense oligonucleotides (ASOs) offers immense therapeutic hope. In this study, we develop a framework combining the use of patient-derived cells and kidney organoids to provide evidence of the therapeutic efficacy of ASOs in XLAS patients.</description>
+    </item>
     
     <item>
       <title>WIDGeT consortium project</title>
@@ -28,15 +37,6 @@
       
       <guid>https://hassansaei.github.io/project/adtkd/</guid>
       <description>Autosomal dominant tubulointerstitial kidney disease (ADTKD) is a hereditary condition characterized by progressive tubulointerstitial fibrosis with or without tubular dilation and atrophy, eventually leading to end-stage kidney failure. The affected individuals present mild to negative proteinuria, and bland urinary sediment abnormalities, with normal kidney size. A positive family history is commonly reported for this disease. Molecular genetics play a key role in diagnosing and classifying ADTKD given their non-specific presentations. Pathogenic variants in different genes, including MUC1, UMOD, HNF1B, REN, and SEC61A1, are known to be responsible for ADTKD.</description>
-    </item>
-    
-    <item>
-      <title>Splice modulation therapy development using XLAS organoid models</title>
-      <link>https://hassansaei.github.io/project/organoid_aso/</link>
-      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://hassansaei.github.io/project/organoid_aso/</guid>
-      <description></description>
     </item>
     
   </channel>
