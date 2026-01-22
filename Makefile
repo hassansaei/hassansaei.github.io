@@ -9,7 +9,7 @@ build:
 
 # Rule to update CV from template (run manually: make update-cv)
 update-cv: misc/template.pdf
-	cp $< static/HS-CV-2025.pdf
+	cp $< static/HS-CV-2026.pdf
 	@echo "CV updated from template"
 
 serve:

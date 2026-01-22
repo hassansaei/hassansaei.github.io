@@ -167,7 +167,7 @@ publishDir = "docs"
   [[params.main]]
     icon = "fa-file-text"
     icon_pack = "fa"
-    link = "HS-CV-2025.pdf"
+    link = "HS-CV-2026.pdf"
 
   [[params.main]]
     icon = "fa-linkedin"
