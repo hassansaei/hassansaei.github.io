@@ -11,6 +11,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>VNtyper 2</title>
+      <link>https://hassansaei.github.io/project/vntyper2/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/project/vntyper2/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Background:&lt;/strong&gt; ADTKD-MUC1 is one of the major entities of ADTKD caused by frameshift variants in the MUC1 VNTR that standard short-read sequencing fails to detect. Existing 59dupC-targeted probe-extension assays do not allow for broad screening and cannot detect atypical non-dupC variants. Recently, VNtyper, a Kestrel-based genotyping pipeline with optional code-adVNTR cross-validation for MUC1 VNTR genotyping from short-read sequencing data allowed to circumvent this diagnostic limitation, but needed further development for easy access and rapid sample processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methods:&lt;/strong&gt; We developed VNtyper 2, by refactoring VNtyper into a modular, production-grade tool with a companion web platform, VNtyper-Online (&lt;a href=&#34;https://vntyper.org&#34; target=&#34;_blank&#34;&gt;https://vntyper.org&lt;/a&gt;), for freely available browser-based analysis with short turnaround time and without local bioinformatics infrastructure. We validated VNtyper 2 on 400 simulated samples generated with MucOneUp and 142 clinical exomes with independently confirmed genotypes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Results:&lt;/strong&gt; In simulation, VNtyper 2 detected the canonical 59dupC variant with 96% sensitivity and 100% specificity. Reference-standard validation on 142 samples yielded 90.6% sensitivity and 98.2% specificity overall, with cohort-dependent performance across the Twist Exome v2 French-German cohort (98% sensitivity, 87.5% specificity) and the KAPA HyperExome V2 (Roche) Czech-US cohort (79.4% sensitivity, 100% specificity). Screening of 3582 exomes and targeted panels from international CKD referral programmes identified 51 positive individuals, including 9 with atypical non-dupC frameshift variants that would have been missed by 59dupC-targeted probe-extension assays. In unselected CKD cohorts, a descriptive random-effects summary estimated a detection rate of 1.4% (95% CI 0.6 to 3.1%).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discussion:&lt;/strong&gt; VNtyper 2 and VNtyper-Online are open-source tools for MUC1 VNTR genotyping from short-read data and can support locally validated workflows when VNTR coverage is adequate. By improving accessibility and turnaround time, these tools democratize MUC1 diagnostics at global scale. We propose an expert-informed two-pathway workflow developed through European ADTKD-Net discussions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Splice modulation therapy development using XLAS organoid models</title>
       <link>https://hassansaei.github.io/project/organoid_aso/</link>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
@@ -109,10 +129,6 @@
       
       <guid>https://hassansaei.github.io/project/adtkd/</guid>
       <description>&lt;p&gt;Autosomal dominant tubulointerstitial kidney disease (ADTKD) is a hereditary condition characterized by progressive tubulointerstitial fibrosis with or without tubular dilation and atrophy, eventually leading to end-stage kidney failure. The affected individuals present mild to negative proteinuria, and bland urinary sediment abnormalities, with normal kidney size. A positive family history is commonly reported for this disease. Molecular genetics play a key role in diagnosing and classifying ADTKD given their non-specific presentations. Pathogenic variants in different genes, including MUC1, UMOD, HNF1B, REN, and SEC61A1, are known to be responsible for ADTKD. The absence of a mutation does not rule out ADTKD, as other loci remain to be identified. The recent advancements in high-throughput sequencing technology and the pan-genome graph pipelines have improved the diagnostic rate of Mendelian and multigenic complex diseases. However, some challenges remain for accurately detecting pathogenic variants in genes with complex structures. For instance, the detection of variants in the coding variable number tandem repeat (VNTR) region of the MUC1 gene (encoding the mucin-1 protein) responsible for autosomal dominant tubulointerstitial kidney disease-MUC1 (ADTKD-MUC1) is a real issue.&lt;/p&gt;
-
-&lt;p&gt;VNtyper 2.0 is an advanced pipeline designed to genotype MUC1 coding Variable Number Tandem Repeats (VNTR) in Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD-MUC1) using Short-Read Sequencing (SRS) data. This version integrates enhanced variant calling algorithms, robust logging mechanisms, and streamlined installation processes to provide researchers with a powerful tool for VNTR analysis.&lt;/p&gt;
-
-&lt;p&gt;We have developed a web server to provide free access to VNtyper, which runs in the background for ease of use. Access it through the following link: &lt;a href=&#34;https://vntyper.org/&#34; target=&#34;_blank&#34;&gt;https://vntyper.org/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

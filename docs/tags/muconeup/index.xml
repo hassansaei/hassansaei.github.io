@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muconeup on Hassan Saei</title>
+    <link>https://hassansaei.github.io/tags/muconeup/</link>
+    <description>Recent content in Muconeup on Hassan Saei</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2026 Hassan Saei</copyright>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hassansaei.github.io/tags/muconeup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VNtyper 2</title>
+      <link>https://hassansaei.github.io/project/vntyper2/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/project/vntyper2/</guid>
+      <description>Abstract Background: ADTKD-MUC1 is one of the major entities of ADTKD caused by frameshift variants in the MUC1 VNTR that standard short-read sequencing fails to detect. Existing 59dupC-targeted probe-extension assays do not allow for broad screening and cannot detect atypical non-dupC variants. Recently, VNtyper, a Kestrel-based genotyping pipeline with optional code-adVNTR cross-validation for MUC1 VNTR genotyping from short-read sequencing data allowed to circumvent this diagnostic limitation, but needed further development for easy access and rapid sample processing.</description>
+    </item>
+    
+  </channel>
+</rss>

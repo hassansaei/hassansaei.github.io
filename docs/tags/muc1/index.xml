@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Hassan Saei</copyright>
-    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hassansaei.github.io/tags/muc1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VNtyper 2</title>
+      <link>https://hassansaei.github.io/project/vntyper2/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/project/vntyper2/</guid>
+      <description>Abstract Background: ADTKD-MUC1 is one of the major entities of ADTKD caused by frameshift variants in the MUC1 VNTR that standard short-read sequencing fails to detect. Existing 59dupC-targeted probe-extension assays do not allow for broad screening and cannot detect atypical non-dupC variants. Recently, VNtyper, a Kestrel-based genotyping pipeline with optional code-adVNTR cross-validation for MUC1 VNTR genotyping from short-read sequencing data allowed to circumvent this diagnostic limitation, but needed further development for easy access and rapid sample processing.</description>
+    </item>
     
     <item>
       <title>A tool to genotype coding VNTR in ADTKD-MUC1</title>
