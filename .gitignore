@@ -1,2 +1,57 @@
+# Backup / swap
 *~
+*.swp
+*.swo
+
+# R / RStudio / blogdown
 .Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Knit output of publications.Rmd — do not commit alongside the .Rmd or Hugo
+# will emit two home widgets with the same id="publications".
+content/home/publications.md
+.hugo_build.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# LaTeX (e.g. misc/template.tex builds)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+texput.log
+
+# Editors / IDEs (uncomment if you do not commit shared settings)
+# .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local env / secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# Python (if you add scripts later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/

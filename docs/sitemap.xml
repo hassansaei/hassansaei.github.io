@@ -149,53 +149,8 @@
     
     <url>
     
-      <loc>https://hassansaei.github.io/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://hassansaei.github.io/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://hassansaei.github.io/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://hassansaei.github.io/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://hassansaei.github.io/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://hassansaei.github.io/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -301,28 +256,8 @@
     
     <url>
     
-      <loc>https://hassansaei.github.io/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://hassansaei.github.io/tags/intronic-variant/</loc>
       <lastmod>2025-12-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://hassansaei.github.io/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -10,3 +10,5 @@ image = ""
 caption = ""
 
 +++
+
+There are no blog posts here yet. The site focuses on projects, publications, and presentations.
