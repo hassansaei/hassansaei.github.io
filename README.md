@@ -41,6 +41,12 @@ The BibTeX file **`misc/HS-publication.bib`** feeds the [publications section](c
 
 Edit **site settings** in **`config.toml`** at the repository root (not a separate `config/` folder). Edit **page content** under **`content/`** (home widgets, posts, projects, talks, and so on).
 
+## Redirect links for QR codes
+
+Pages under **`content/go/`** are stable short links rendered by **`layouts/go/single.html`**. Encode the site URL of such a page in a QR code (for example `https://hassansaei.github.io/go/preprint/` for **`content/go/preprint.md`**); the printed code stays valid while the destination changes.
+
+Set `target` in the front matter to the destination URL (preferably a DOI) and run `make build`. While `target` is empty the page shows the text in `message` instead of redirecting. To add another link, copy the file under a new name.
+
 ## Deployment
 
 The site is published from **`docs/`** on GitHub Pages. Commit and push changes (including regenerated **`docs/`** after `make build`) so the live site updates.
