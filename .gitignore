@@ -45,6 +45,10 @@ texput.log
 *.sublime-project
 *.sublime-workspace
 
+# Local agent style notes (never commit)
+.agent-style/
+.cursor/
+
 # Local env / secrets (never commit)
 .env
 .env.*
