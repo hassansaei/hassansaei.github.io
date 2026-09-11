@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Hassan Saei</copyright>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hassansaei.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deep intronic mutational hotspots</title>
+      <link>https://hassansaei.github.io/project/deep-intronic-hotspots/</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/project/deep-intronic-hotspots/</guid>
+      <description>Description to be added.</description>
+    </item>
     
     <item>
       <title>VNtyper 2</title>
