@@ -38,6 +38,8 @@ Desktop.ini
 *.synctex.gz
 *.toc
 texput.log
+# Compiled CVs; the published copy lives in static/
+misc/*.pdf
 
 # Editors / IDEs
 .vscode/
