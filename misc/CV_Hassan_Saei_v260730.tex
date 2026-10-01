@@ -1,0 +1,314 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 4.0 (December 30, 2025)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Hassan Saei (hassan.saeiahan@gmail.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{mathptmx} % Use Times New Roman font
+
+%------------------------------------------------
+
+\name{\textbf{H\MakeLowercase{assan} S\MakeLowercase{aei,} MS\MakeLowercase{c.} P\MakeLowercase{h}D.}}
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{Imagine Institute of Genetic Diseases} % Main address
+
+\address{Laboratory of Hereditary Kidney Diseases (U1163), 75015 PARIS} % A secondary address (optional)
+
+\address{Office 516-B1, 24 boulevard de Montparnasse, 75015 PARIS} % Contact information
+
+\address{
+  \href{mailto:hassan.saei@inserm.fr}{Email}  | 
+  \href{https://hassansaei.github.io}{Personal website}  | 
+   \href{https://github.com/hassansaei}{GitHub}  |
+  \href{https://www.linkedin.com/in/hassan-saei/}{LinkedIn}
+}
+
+%----------------------------------------------------------------------------------------
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Profile}
+
+Postdoctoral researcher in RNA and gene therapy with strong experience in both wet-lab and computational analysis. Interested in translational research aimed at improving genetic diagnosis and developing and testing novel therapeutic strategies in complex in vitro disease models. Early in my PhD, I developed a bioinformatics tool that significantly improved genetic diagnosis in patients with ADTKD-MUC1 using short-read sequencing data. I subsequently focused on developing physiologically relevant in vitro kidney organoid models to evaluate therapeutic approaches. My research integrates genomics, computational analysis, and organoid models to accelerate translational discovery and precision medicine.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{Université Paris Cité, Institut Pasteur, France} \hfill \textit{2021-2024} \\ 
+	Ph.D. in Genetics \\
+	Bio Sorbonne Paris Cite, DGNRV department \\
+	Fellowship from the PPU-Imagine Program \\
+	Thesis: Characterization of missing variants in hereditary renal diseases and development of RNA-based therapy in kidney organoids \href{https://theses.hal.science/tel-05394188/}{[Link]}
+	
+	\textbf{Iran University of Medical Sciences, Iran} \hfill \textit{2017-2020} \\ 
+	M.Sc. in Human Genetics  \\
+	Overall GPA: 4/4
+	
+	\textbf{University of Tabriz, Iran} \hfill \textit{2013-2017} \\ 
+	B.Sc. in Biology  \\
+	Overall GPA: 3.84/4
+	
+	*All credentials are evaluated by World Education Services \href{https://www.credly.com/badges/866e14ca-d9e4-4c67-a419-0ade95cb1ddb/public_url}{[Link]}
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Professional Experiences
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Professional Experiences}
+
+	\begin{rSubsection}{Imagine Institute of Genetic Diseases, Paris, France}{Jan 2025 - Present}{Postdoctoral Researcher}{Paris, France}
+		\item Research Focus: Developing engineered AAVs for targeted therapy development for podocytopathies in partnership with Sanofi, and WhiteLab Genomics (\href{https://www.institutimagine.org/en/sanofi-whitelab-genomics-target-laboratory-nantes-university-and-institut-imagine-launch-widget}{WIDGeT consortium project})
+		\item Developing \textit{in vitro} and \textit{in vivo} AAV binding and transduction screening pipelines and their computational analysis
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{}{Oct 2021 - Dec 2024}{Ph.D. Candidate}{Paris, France}
+		\item Research Focus: Improving genetic diagnosis of hereditary renal diseases and developing robust disease models for therapeutic discovery
+		\item Developed a splice-modulation therapeutic approach for Alport syndrome using human kidney organoids
+		\item Developed a computational pipeline for variant detection in the coding-VNTR in ADTKD-MUC1 using short-read sequencing data (\href{https://vntyper.org/}{vntyper-online})
+		\item Integrated genomic and transcriptomic analyses to enhance the genetic diagnosis of X-linked Alport syndrome
+		\item I visited Prof. Rachel Lennon's lab at the University of Manchester, UK, for three weeks and performed proteomics analysis on kidney organoids.	
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Iran University of Medical Sciences}{Oct 2018 - Sep 2020}{M.Sc. Internship}{Tehran, Iran}
+		\item Research Focus: Rare disease genetic diagnosis with NGS, Functional characterization of complex disease
+		\item Modeling pre-eclampsia using 2D culture, biomarker identification and their functional analysis
+		\item Exome sequencing for diagnosis of patients with MSUD
+		\item Bioinformatic analysis via \textit{in house} pipelines for variant detection, classification and \textit{in silico} analysis of the new variants
+	\end{rSubsection}
+
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Expertise
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Analytic and Computational Skills}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Programming Languages & Python, R/Markdown, Bash, High Performance Computing, Git \\
+		Workflow Management & Docker, Singularity \\
+		Big Data Analysis & RNA-seq, scRNA-seq, scATAC-seq, Proteomics \\
+		Sequence analysis & GATK, deepVariant, CADD, SIFT, MutationTaster, IGV \\
+		Stem cell research & Human iPSC culture and differentiation \\
+		Disease models &  Organoid development, Humanized mouse model
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Peer-reviewed Publications
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Peer-reviewed Publications}
+
+\begin{enumerate}
+  \item  Popp B, \textbf{Saei H}.
+  \textbf{MucOneUp: A Simulation Framework for \textit{MUC1}-VNTR Variant Benchmarking}. 
+  \textit{BioRxiv}. 2026. \href{https://www.biorxiv.org/content/10.64898/2026.05.08.723876v1}{[Full text]}
+
+  \item Popp B\textsuperscript{*}, \textbf{Saei H}\textsuperscript{*}, Teltsh O., Janoušek V., Přistoupilová A., Vrbacká A., Hartmannová H., Kidd K., Helmuth J., Bleyer A. J., Wiesener M., Fausch K., Rowan C., El Hassan E., Clince M., Cavalleri G., Locher M., Eckardt K.-U., Richter-Pechanska P., ADTKD-Net Consortium, Kmoch S, Antignac C, Conlon P, Dorval G, Živná M, Halbritter J.
+  \textbf{VNtyper 2 enables open-access short-read genotyping of \textit{MUC1} VNTR variants in ADTKD at high speed}.  
+  \textit{medRxiv; Under revision in Kidney International}. 2026. (\textsuperscript{*}co-first authors) \href{https://vntyper.org/}{[Web server]}
+  
+  \item \textbf{Saei H},  Estebe B, Gaudin N, Esmailpour M, Haure J,  Gribouval O,  Arrondel C,  Moriniere V,  Tian P,  Lennon R,  Antignac C,  Mollet G, Dorval G. 
+  \textbf{Splice modulation of COL4A5 reinstates collagen IV assembly in an organoid model of Alport syndrome}. 
+  \textit{JCI Insight}. 2025. \href{https://insight.jci.org/articles/view/194759}{[Full text]}
+  
+    \item Petzold, F, Jeanpierre C, Chen X, Morinière V, Benmerah A, Dorval G, \textbf{Saei H}, Heidet L, Antignac C, Saunier S.
+  \textbf{Exome Sequencing in a Large Cohort with Ciliopathy-Related Kidney Disease}.
+  \textit{CJASN}. 2025. \href{https://journals.lww.com/cjasn/abstract/9900/exome_sequencing_in_a_large_cohort_with.802.aspx}{[Full text]}
+  
+    \item Kachmar J\textsuperscript{*}, \textbf{Saei H}\textsuperscript{*}, Morinière V, Heidet L, Knebelmann B, Gribouval O, Mautret-Godefroy M, Burtey S, Vuiblet V,  Alla A, Ibalanky A, Moranne O, Nizon M, Savenkoff B, Nitschké P, Antignac C, Dorval G.
+   \textbf{Phenotypic Heterogeneity of ADTKD-MUC1 Diagnosed Using VNtyper, a Novel Genetic Technique}
+  \textit{American Journal of Kidney Diseases}. 2025. (\textsuperscript{*}co-first authors) \href{https://www.ajkd.org/article/S0272-6386(25)00038-1/abstract}{[Full text]}
+  
+  \item \textbf{Saei H}, Masson C, Morinière V, Kachmar J, Heidet L, Gribouval O, Antignac C, Dorval G. 
+   \textbf{Using VNtyper from whole exome sequencing data to detect pathogenic variants in the MUC1 gene}. 
+  \textit{JASN}. 2024. \href{https://journals.lww.com/jasn/fulltext/2025/02000/using_vntyper_from_whole_exome_sequencing_data_to.25.aspx}{[Full text]}
+
+  \item Boisson M, Arrondel C, Cagnard N, Morinière V, Arkoub ZA, \textbf{Saei H}, Heidet L, Kachmar J, Hummel A,
+  Knebelmann B, Bonnet-Dupeyron MN, Isidor B, Izzedine H, Legrand E, Couarch P, Gribouval O, Bole-Feysot
+  C, Parisot M, Nitschké P, Antignac C, Dorval G.  \textbf{A wave of deep intronic mutations in X-linked Alport syndrome}.
+  \textit{Kidney Int}. 2023 Aug; 104(2):367-377. \href{https://www.kidney-international.org/article/S0085-2538(23)00376-9/fulltext}{[Full text]}
+
+  \item \textbf{Saei H}, Morinière V, Heidet L, Gribouval O, Lebbah S, Tores F, Mautret-Godefroy M, Knebelmann B, Burtey
+  S, Vuiblet V, Antignac C, Nitschké P, Dorval G.  \textbf{VNtyper enables accurate alignment-free genotyping
+  of MUC1 coding VNTR using short-read sequencing data in autosomal dominant tubulointerstitial kidney
+  disease}. \textit{iScience}. 2023 Jun 17; 26(7):107171. \href{https://www.cell.com/action/showPdf?pii=S2589-0042%2823%2901248-8}{[Full text]}
+  
+    \item Azarmi M, \textbf{Saei H}, Vugt I, Thijssen S, Land B, Elburg R, Garssen J, Folkerts G, Hogenkamp A, Braber S.  \textbf{Co-trimoxazole-induced reproductive toxicity and placental-barrier disruption: impact on cell-cell junctions and ERK signaling pathway}. \textit{Frontiers in Cell and Developmental Biology}. 2026 Jun 8. \href{https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1800328/full}{[Full text]}
+
+  \item Abiri M\textsuperscript{*}, \textbf{Saei H}\textsuperscript{*}, Eghbali M, Karamzadeh R, Shirzadeh T, Sharifi Z, Zeinali S. 
+   \textbf{Maple syrup urine disease mutation spectrum in a cohort of 40 consanguineous patients and in silico analysis of novel mutations}. 
+  \textit{Metab Brain Dis}. 2019 Aug; 34(4):1145-1156. (\textsuperscript{*}co-first authors) \href{https://link.springer.com/article/10.1007/s11011-019-00435-y}{[Full text]}
+
+  \item \textbf{Saei H}, Govahi A, Abiri A, Eghbali M, Abiri M.  \textbf{Comprehensive transcriptome mining identified the gene
+  expression signature and differentially regulated pathways of the late-onset preeclampsia}. 
+  \textit{Pregnancy Hypertens}. 2021 Aug; 25:91-102. \href{https://www.sciencedirect.com/science/article/abs/pii/S2210778921000386?via%3Dihub}{[Full text]}
+
+  \item Eghbali M, Fatemi KS, Salehpour S, Abiri M, \textbf{Saei H}, Talebi S, Olyaei NA, Yassaee VR, Modarressi MH. 
+   \textbf{Whole-exome sequencing uncovers novel causative variants and additional findings in three patients affected by
+  glycogen storage disease type VI and Fanconi-Bickel syndrome}. 
+  \textit{Front Genet}. 2021 Jan 11; 11:601566. \href{https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.601566/full}{[Full text]}
+
+  \item Jabbarpour N\textsuperscript{*}, \textbf{Saei H}\textsuperscript{*}, Jabbarpoor Bonyadi MH, Bonyadi M. 
+   \textbf{Identification of novel cis-mutations in the GJA8 gene in a 3-generation Iranian family with autosomal dominant congenital nuclear cataract}. 
+  \textit{Ophthalmic Genet}. 2022 Oct; 43(5):609-614. (\textsuperscript{*}co-first authors)
+\end{enumerate}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Peer Review Activities
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Peer Review Activities}
+Reviewed manuscripts for  \textit{Molecular Genetics \& Genomic Medicine}, \textit{NAR Genomics and Bioinformatics}, \textit{Nature Reviews Nephrology}, \textit{Scientific Data}, and \textit{Wellcome Open Research}, \textit{Cell Biochemistry and Function}, \textit{Kidney International Reports}.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Student Supervision
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Student Supervision}
+Supervised Haythem Mami (M.Sc. student, Imagine Institute of Genetic Diseases, Jan 2026 - Sep 2026); project: \textit{Development of an integrated transcriptomic cell atlas of human kidney organoids}.
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Main trainings and certificates
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Main training and certificates}
+
+	\begin{rSubsection}{Pasteur Institute}{Oct 2021 - Dec 2024}{PhD courses}{Paris, France}
+		\item Scientific Integrity (EMBO)
+		\item Laboratory animal experimentation – Designer Diploma
+		\item Bioinformatics program for PhD students: R and Statistics track, Bio-image
+analysis track
+		\item Bioinformatics track: Unix, Metagenomics, Single cell data analysis, Functional analysis, Proteomics data
+analysis, Utilities for HTS data analysis, Expression quantification and differential analysis, Variant
+calling, ChIP-seq data analysis
+	\end{rSubsection}
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Awards, Scholarships and Fundings
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards, Scholarships and Fundings}
+
+\begin{itemize}
+  \item Pasteur-Paris University International Ph.D. Fellowship, France (PPU-Imagine, 2021)
+  \item Poster Prize winner, NephGen Symposium, Freiburg, Germany, 2023
+  \item Travel award winner, 14th International Podocyte Conference, PA, USA, 2023
+  \item Silver medal and 2\textsuperscript{nd} place, National Biology Olympiad for Undergraduate Students, 
+        Ministry of Higher Education, Iran
+  \item Outstanding Student Award in Basic Science, University of Tabriz, Ministry of Higher Education, Iran
+  \item Iran National Elite’s Foundation Conference Travel Award, 2018
+  \item 1\textsuperscript{st} class honour in the B.Sc. (ranked 1/31 students), University of Tabriz, Iran
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Memberships and Conference Proceedings
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Memberships and Conference Proceedings}
+\begin{itemize}
+  \item The American College of Medical Genetics and Genomics (ACMG) — Member, 2023–2024
+  \item The American Society of Human Genetics (ASHG) — Member, 2023–2024
+  \item The European Society of Human Genetics (ESHG) — Member
+  \item \textit{Recurrent pseudoexon activation in COL4A5 intron 6 defines a therapeutically actionable hotspot.} Poster presentation, ESHG Conference, Gothenburg, Sweden, 2026. (*Travel Award winner)
+  \item \textit{Organoids as scalable models for splice modulation therapy development in Alport Syndrome.} Poster presentation, ESHG Conference, Milan, Italy, 2025.
+  \item \textit{Modeling X-linked Alport syndrome with deep-intronic variations in kidney organoids for antisense oligonucleotide-based therapy development.} Poster presentation, BaCell3D, Basel, Switzerland, 2025.
+  \item \textit{Developing and characterizing X-linked Alport Syndrome kidney organoid model with deep-intronic variation for drug discovery.} Poster presentation, American Society of Matrix Biology, Basement Membrane Workshop, Manchester, UK, 2024. (Travel award winner)
+  \item \textit{Highly sensitive variant detection in VNTR is possible with boosted exome sequencing: the example of MUC1-related nephropathy.} Poster presentation, ESHG Conference, Berlin, Germany, 2024.
+  \item \textit{Clinically boosted exome-sequencing is necessary for accurate and highly sensitive genetic diagnosis of ADTKD-MUC1.} Oral presentation, European Renal Association, Stockholm, Sweden, 2024.
+  \item \textit{X-linked Alport syndrome: From transcriptomic diagnosis to preclinical assessment of splice-switching oligonucleotide therapy using patient-derived cells and kidney organoids.} ACMG Annual Clinical Genetics Meeting, 2024.
+  \item \textit{MUC1 gene coding-VNTR alignment-free genotyping approach augmented ADTKD diagnosis in a cohort of 3735 patients with hereditary kidney diseases.} ACMG Annual Clinical Genetics Meeting, 2024.
+  \item \textit{Genotyping coding-VNTR in the MUC1 gene using alignment-free method allows genetic diagnosis of MUC1-related autosomal dominant tubulointerstitial kidney disease.} Poster presentation, NephGen Symposium, Freiburg, Germany, 2023. (*Poster Prize winner)
+  \item \textit{Deep-intronic variants in the X-linked Alport Syndrome: from detection to therapeutic hopes.} Oral presentation, Podocyte Meeting, Philadelphia, PA, USA, 2023. (*Travel Award winner, presented online)
+  \item \textit{Homozygosity mapping in maple syrup urine disease patients from Iran: In silico analysis of novel mutations.} Poster presentation, ESHG Conference, Milan, Italy, 2017.
+\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	references
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{References}
+
+\begin{itemize}
+  \item \textbf{Corinne Antignac, M.D., Ph.D.} \\
+  Professor and Director \\
+  Laboratory of Hereditary Kidney Diseases, INSERM U1163, Imagine Institute, Paris, France \\
+  Email: \href{mailto:Corinne.antignac@inserm.fr}{Corinne.antignac@inserm.fr}
+
+  \item \textbf{Geraldine Mollet, Ph.D.} \\
+  Associate Professor, HDR (Ph.D. Supervisor) \\
+  Laboratory of Hereditary Kidney Diseases, INSERM U1163, Imagine Institute, Paris, France \\
+  Email: \href{mailto:Geraldine.mollet@inserm.fr}{Geraldine.mollet@inserm.fr}
+
+  \item \textbf{Guillaume Dorval, M.D., Ph.D.} \\
+  Assistant Professor (Ph.D. Co-supervisor) \\
+  Laboratory of Hereditary Kidney Diseases, INSERM U1163, Imagine Institute, Paris, France \\
+  Genetics Department, Faculty of Medicine, University Paris Cité, France \\
+  Email: \href{mailto:guillaume.dorval@inserm.fr}{guillaume.dorval@inserm.fr}, 
+  \href{mailto:guillaume.dorval@aphp.fr}{guillaume.dorval@aphp.fr}
+
+  \item \textbf{Saeed Talebi, M.D., Ph.D.} \\
+  Associate Professor (Human Genetics Program Director) \\
+  Medical Genetics Department, Faculty of Medicine, Iran University of Medical Sciences, Tehran, Iran \\
+  Email: \href{mailto:Talebi.s@iums.ac.ir}{Talebi.s@iums.ac.ir}
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
