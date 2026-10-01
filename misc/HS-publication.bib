@@ -14,7 +14,7 @@
 }
 
 @article{boissonWaveDeepIntronic2023,
-  title = {A Wave of Deep Intronic Mutations in {{X-linked Alport}} Syndrome},
+  title = {A Wave of Deep Intronic Mutations in {{X}}-Linked {{Alport}} Syndrome},
   author = {Boisson, Marie and Arrondel, Christelle and Cagnard, Nicolas and Morini{\`e}re, Vincent and Arkoub, Za{\"i}na A{\"i}t and Saei, Hassan and Heidet, Laurence and Kachmar, Jessica and Hummel, Aur{\'e}lie and Knebelmann, Bertrand and {Bonnet-Dupeyron}, Marie-No{\"e}lle and Isidor, Bertrand and Izzedine, Hassane and Legrand, Eric and Couarch, Philippe and Gribouval, Olivier and {Bole-Feysot}, Christine and Parisot, M{\'e}lanie and Nitschk{\'e}, Patrick and Antignac, Corinne and Dorval, Guillaume},
   year = 2023,
   month = aug,
@@ -78,12 +78,25 @@
   author = {Popp, Bernt and Saei, Hassan},
   year = 2026,
   month = may,
-  journal = {BioRxiv},
   publisher = {Bioinformatics},
   doi = {10.64898/2026.05.08.723876},
   urldate = {2026-05-14},
   abstract = {Summary: Variable number tandem repeats (VNTRs) in the MUC1 gene cause autosomal dominant tubulointerstitial kidney disease when disrupted by frameshift variants, but the GC-rich 60-bp repeat structure (20-125 copies) challenges variant detection. While tools like VNtyper enable MUC1 variant calling, no gold-standard benchmarking datasets exist for systematic performance evaluation. We present MucOneUp, a specialized simulation framework for generating MUC1-VNTR reference sequences with targeted variants and platform-specific sequencing reads (Illumina, Oxford Nanopore, PacBio). MucOneUp employs Markov chain-based repeat generation, supports diploid simulation with customizable variant placement, and includes additional analysis modules for SNaPshot assay simulation and exploratory frameshift analysis. We validate MucOneUp through a multi-variant, cross-platform benchmark of six tool-platform combinations using 13 distinct frameshift variants and investigate VNTR length effects on detection.},
   archiveprefix = {Bioinformatics},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
+  langid = {english}
+}
+
+@misc{poppVNtyper2Enables2026,
+  title = {{{VNtyper}} 2 Enables Open-Access Short-Read Genotyping of {{MUC1 VNTR}} Variants in {{ADTKD}} at High-Speed},
+  author = {Popp, Bernt and Saei, Hassan and Teltsh, Omri and Janou{\v s}ek, V{\'a}clav and P{\v r}istoupilov{\'a}, Anna and Vrback{\'a}, Alena and Hartmannov{\'a}, Hana and Kidd, Kendrah and Helmuth, Johannes and Bleyer, Anthony J and Wiesener, Michael and Fausch, Kathrin and Rowan, Colm and Hassan, Elhussein El and Clince, Michelle and Cavalleri, Gianpiero and Locher, Maurus and Eckardt, Kai-Uwe and {Richter-Pechanska}, Paulina and {ADTKD-Net Consortium} and Kmoch, Stanislav and Antignac, Corinne and Conlon, Peter and Dorval, Guillaume and {\v Z}ivn{\'a}, Martina and Halbritter, Jan},
+  year = 2026,
+  month = jun,
+  publisher = {Nephrology},
+  doi = {10.64898/2026.05.27.26352937},
+  urldate = {2026-06-04},
+  abstract = {Background: ADTKD-MUC1 is one of the major entities of ADTKD caused by frameshift variants in the MUC1 VNTR that standard short-read sequencing fails to detect. Existing 59dupC-targeted probe-extension assays do not allow for broad screening and cannot detect atypical non-dupC variants. Recently, VNtyper, a Kestrel-based genotyping pipeline with optional code-adVNTR cross-validation for MUC1 VNTR genotyping from short-read sequencing data allowed to circumvent this diagnostic limitation, but needed further development for easy access and rapid sample processing. Methods: We developed VNtyper 2, by refactoring VNtyper into a modular, production-grade tool with a companion web platform, VNtyper-Online (https://vntyper.org), for freely available browser-based analysis with short turnaround time and without local bioinformatics infrastructure. We validated VNtyper 2 on 400 simulated samples generated with MucOneUp and 142 clinical exomes with independently confirmed genotypes. Results: In simulation, VNtyper 2 detected the canonical 59dupC variant with 96\% sensitivity and 100\% specificity. Reference-standard validation on 142 samples yielded 90.6\% sensitivity and 98.2\% specificity overall, with cohort-dependent performance across the Twist Exome v2 French-German cohort (98\% sensitivity, 87.5\% specificity) and the KAPA HyperExome V2 (Roche) Czech-US cohort (79.4\% sensitivity, 100\% specificity). Screening of 3582 exomes and targeted panels from international CKD referral programmes identified 51 positive individuals, including 9 with atypical non-dupC frameshift variants that would have been missed by 59dupC-targeted probe-extension assays. In unselected CKD cohorts, a descriptive random-effects summary estimated a detection rate of 1.4\% (95\% CI 0.6 to 3.1\%). Conclusions: VNtyper 2 and VNtyper-Online are open-source tools for MUC1 VNTR genotyping from short-read data and can support locally validated workflows when VNTR coverage is adequate. By improving accessibility and turnaround time, these tools democratize MUC1 diagnostics at global scale. For its integration into routine diagnostics, we propose an expert-informed two-pathway workflow developed through European ADTKD-Net consortium consensus.},
+  archiveprefix = {Nephrology},
   copyright = {http://creativecommons.org/licenses/by/4.0/},
   langid = {english}
 }
@@ -99,6 +112,20 @@
   issn = {22107789},
   doi = {10.1016/j.preghy.2021.05.007},
   urldate = {2025-01-02},
+  langid = {english}
+}
+
+@misc{saeiMappingIntronicMutational2026,
+  title = {Mapping Intronic Mutational Hotspots by {\emph{in Silico}} Mutagenesis Enables Single Antisense Oligonucleotide Correction of Multiple Variants},
+  author = {Saei, Hassan and Ardin, B{\'e}atrice and Kaiser, Nicolas and Ouahmane, Mouad and Gribouval, Olivier and Moriniere, Vincent and {Mautret-Godefroy}, Manon and Wopperer, Florian J. and Riedhammer, Korbinian M. and Gale, Daniel P. and {Sadeghi-Alavijeh}, Omid and Goursaud, Claire and Grunewald, Olivier and Prosper, Chloe and Lebreton, Louis and Rabant, Marion and Bergmann, Carsten and Kormann, Raphael and Decramer, Stephane and Knebelmann, Bertrand and Antignac, Corinne and Wiesener, Michael S. and Dorval, Guillaume},
+  year = 2026,
+  month = sep,
+  publisher = {MedRxiv},
+  doi = {10.64898/2026.09.10.26362533},
+  urldate = {2026-10-01},
+  abstract = {Abstract                        Deep intronic variants remain an understudied class of pathogenic variation, primarily due to their absence from standard exome and gene panel datasets and the complexity of non-coding genome interpretation. We hypothesized that pathogenic deep intronic variants are not randomly distributed but instead cluster within intronic ``hotspots'' inherently prone to pseudoexon activation, and that mapping such regions could improve molecular diagnosis. Importantly, such intronic hotspots nominate targets for antisense oligonucleotide (ASO) therapy. Using X-linked Alport syndrome as a proof-of-concept model and based on our previous work, we screened unsolved patients across multiple European diagnostic centers for variants within a defined region of             COL4A5             intron 6. We identified eight independent variants in more than 35 affected individuals from ten unrelated families, which led to two pseudoexon inclusion events, both using the same strong cryptic splice donor site. In all, RNA sequencing and/or minigene assays confirmed aberrant splicing, even when prediction tools were discordant or fell below clinical thresholds. A single ASO targeting the shared donor site restored normal             COL4A5             mRNA and {$\alpha$}5(IV) collagen protein expression in patient-derived cells regardless of the causative variant. Extending this analysis gene-wide using the AlphaGenome sequence-to-function model, we confirmed intron 6 as one of the most critical             COL4A5             splicing hotspot and identified additional potential hotspots harboring novel predicted spliceogenic variants. This gene-agnostic framework establishes a systematic strategy for identifying intronic mutational hotspots and matching patients to scalable, mutation-agnostic ASO-based precision therapies.                                   Significance Statement             Deep intronic variants are an underrecognized cause of genetic disease, undetectable to standard exome and gene-panel testing and difficult to interpret. Using X-linked Alport syndrome as an exemplar, we identified a recurrent deep intronic mutational hotspot in which independent pathogenic variants from unrelated families converge on the same cryptic splice donor site to activate pseudoexon inclusion. A single antisense oligonucleotide therapy corrected this shared splicing defect and restored normal collagen IV protein production in patient cells, regardless of the underlying causative variant. Extending this analysis gene-wide using an AlphaGenome sequence-to-function splicing model, we uncovered additional deep intronic hotspots across the gene, establishing a gene-agnostic strategy for systematically identifying hidden pathogenic variants and matching patients to mutation-agnostic, RNA-based precision therapies in Mendelian disorders.},
+  archiveprefix = {Genetic and Genomic Medicine},
+  copyright = {http://creativecommons.org/licenses/by/4.0/},
   langid = {english}
 }
 
