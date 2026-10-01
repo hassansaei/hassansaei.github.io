@@ -47,7 +47,9 @@ convertStars <- function(cc){
 
 bib.df <- lapply(bib, function(bibi) {
   data.frame(
-    title = if (!is.null(bibi$title)) gsub('\\{', '', gsub('\\}', '', bibi$title)) else NA,
+    # Strip LaTeX markup such as \emph before removing braces, otherwise the
+    # command name and the first word it wraps are both lost.
+    title = if (!is.null(bibi$title)) gsub('\\{', '', gsub('\\}', '', gsub('\\\\[a-zA-Z]+', '', bibi$title))) else NA,
     year = if (!is.null(bibi$year)) as.numeric(bibi$year) else NA,
     doi = if (!is.null(bibi$doi)) bibi$doi else NA,
     journal = if (!is.null(bibi$journal)) {
