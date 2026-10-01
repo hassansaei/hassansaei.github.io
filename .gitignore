@@ -39,8 +39,8 @@ Desktop.ini
 *.toc
 texput.log
 
-# Editors / IDEs (uncomment if you do not commit shared settings)
-# .vscode/
+# Editors / IDEs
+.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -48,6 +48,7 @@ texput.log
 # Local agent style notes (never commit)
 .agent-style/
 .cursor/
+.vscode/
 
 # Local env / secrets (never commit)
 .env
