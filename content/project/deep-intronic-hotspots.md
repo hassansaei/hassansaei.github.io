@@ -15,7 +15,7 @@ image_preview = "ISHMap.png"
 tags = ["In silico mutagenesis", "Deep intronic variant", "Splicing", "Nephrogenetics", "AlphaGenome Atlas"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/hassansaei/Saei_COL4A5_Intron6_hotspot"
+external_link = "https://doi.org/10.64898/2026.09.10.26362533"
 
 # Does the project detail page use math formatting?
 math = false
@@ -26,4 +26,6 @@ image = "ISHMap.png"
 
 +++
 
-Description to be added.
+Preprint: [Mapping intronic mutational hotspots by in silico mutagenesis enables single antisense oligonucleotide correction of multiple variants](https://doi.org/10.64898/2026.09.10.26362533), medRxiv, September 2026.
+
+Code and analysis scripts: [Saei_COL4A5_Intron6_hotspot](https://github.com/hassansaei/Saei_COL4A5_Intron6_hotspot).
