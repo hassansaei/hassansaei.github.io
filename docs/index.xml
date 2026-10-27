@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A multimodal screening pipeline accelerates the discovery of engineered AAV capsids with podocyte tropism</title>
+      <link>https://hassansaei.github.io/talk/esgct2026_screening/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/talk/esgct2026_screening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-guided AAV capsid engineering and multi-modal screening pipeline for targeted podocyte gene therapy</title>
+      <link>https://hassansaei.github.io/talk/esgct2026_capsid/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/talk/esgct2026_capsid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mapping deep intronic mutational hotspots enables scalable therapy</title>
       <link>https://hassansaei.github.io/project/deep-intronic-hotspots/</link>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
@@ -140,25 +158,6 @@
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://hassansaei.github.io/talk/14podo_us/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A tool to genotype coding VNTR in ADTKD-MUC1</title>
-      <link>https://hassansaei.github.io/project/adtkd/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hassansaei.github.io/project/adtkd/</guid>
-      <description>&lt;p&gt;Autosomal dominant tubulointerstitial kidney disease (ADTKD) is a hereditary condition characterized by progressive tubulointerstitial fibrosis with or without tubular dilation and atrophy, eventually leading to end-stage kidney failure. The affected individuals present mild to negative proteinuria, and bland urinary sediment abnormalities, with normal kidney size. A positive family history is commonly reported for this disease. Molecular genetics play a key role in diagnosing and classifying ADTKD given their non-specific presentations. Pathogenic variants in different genes, including MUC1, UMOD, HNF1B, REN, and SEC61A1, are known to be responsible for ADTKD. The absence of a mutation does not rule out ADTKD, as other loci remain to be identified. The recent advancements in high-throughput sequencing technology and the pan-genome graph pipelines have improved the diagnostic rate of Mendelian and multigenic complex diseases. However, some challenges remain for accurately detecting pathogenic variants in genes with complex structures. For instance, the detection of variants in the coding variable number tandem repeat (VNTR) region of the MUC1 gene (encoding the mucin-1 protein) responsible for autosomal dominant tubulointerstitial kidney disease-MUC1 (ADTKD-MUC1) is a real issue.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Homozygosity mapping in maple syrup urine disease from Iran: Identification and in silico analysis of novel mutations</title>
-      <link>https://hassansaei.github.io/talk/eshg2018/</link>
-      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hassansaei.github.io/talk/eshg2018/</guid>
       <description></description>
     </item>
     
