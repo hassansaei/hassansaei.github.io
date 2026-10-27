@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>https://hassansaei.github.io/project/organoid-sc-atlas/</loc>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://hassansaei.github.io/project/deep-intronic-hotspots/</loc>
       <lastmod>2026-09-11T00:00:00+00:00</lastmod>
     </url>
@@ -292,6 +301,16 @@
     
     <url>
     
+      <loc>https://hassansaei.github.io/tags/atlas/</loc>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://hassansaei.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -361,7 +380,7 @@
     <url>
     
       <loc>https://hassansaei.github.io/tags/kidney-organoid/</loc>
-      <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -391,7 +410,7 @@
     <url>
     
       <loc>https://hassansaei.github.io/tags/nephrogenetics/</loc>
-      <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -429,7 +448,7 @@
     <url>
     
       <loc>https://hassansaei.github.io/project/</loc>
-      <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -440,6 +459,16 @@
     
       <loc>https://hassansaei.github.io/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://hassansaei.github.io/tags/single-cell-rna-seq/</loc>
+      <lastmod>2026-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
