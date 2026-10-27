@@ -6,7 +6,7 @@ date = "2026-10-27"
 title = "Single-cell transcriptomics atlas of kidney organoids"
 
 # Project summary to display on homepage.
-summary = "Single-cell RNA sequencing atlas of human kidney organoids to annotate cell populations and follow their maturation"
+summary = "Single-cell RNA sequencing atlas of human kidney organoids to harmonize cell annotation and benchmark differentiation protocols"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "organoid-sc-atlas.png"
