@@ -3,7 +3,7 @@
 date = "2026-09-11"
 
 # Project title.
-title = "Deep intronic mutational hotspots"
+title = "Mapping deep intronic mutational hotspots enables scalable therapy"
 
 # Project summary to display on homepage.
 summary = "In silico mutagenesis of intronic sequence to map regions where variants are predicted to alter splicing"
