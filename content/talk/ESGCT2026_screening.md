@@ -3,7 +3,7 @@ date = "2026-10-27T00:00:00"
 title = "A multimodal screening pipeline accelerates the discovery of engineered AAV capsids with podocyte tropism"
 abstract = ""
 abstract_short = ""
-event = "European Society of Gene and Cell Therapy (ESGCT), poster presentation"
+event = "European Society of Gene and Cell Therapy (ESGCT)"
 event_url = "https://www.esgctcongress.com"
 location = "Hamburg, Germany"
 
