@@ -3,7 +3,7 @@ date = "2026-10-27T00:00:00"
 title = "AI-guided AAV capsid engineering and multi-modal screening pipeline for targeted podocyte gene therapy"
 abstract = ""
 abstract_short = ""
-event = "European Society of Gene and Cell Therapy (ESGCT)"
+event = "European Society of Gene and Cell Therapy (ESGCT), poster presentation"
 event_url = "https://www.esgctcongress.com"
 location = "Hamburg, Germany"
 
