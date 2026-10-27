@@ -13,6 +13,8 @@ weight = 1
 [interests]
   interests = [
     "Genomics & Bioinformatics",
+    "Non-coding Genome",
+    "Regulatory Element-Gene Interactions",
     "Gene and Nucleic Acid Therapy",
     "Organoid Models"
   ]
