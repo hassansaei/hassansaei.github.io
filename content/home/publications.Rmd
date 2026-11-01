@@ -141,7 +141,7 @@ htmlCit <- function(df){
 }
 
 cat('<ul class="fa-ul">')
-dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(authorgroup,desc(year),desc(month),rk,title) %>% do(htmlCit(.))
+dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(desc(year),authorgroup,desc(month),rk,title) %>% do(htmlCit(.))
 cat('</ul>')
 
 ## cat('<h3>Consortia publications</h3>\n<ul class="fa-ul">')
