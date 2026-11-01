@@ -69,6 +69,10 @@ bib.df <- lapply(bib, function(bibi) {
       NA
     },
     keywords = if (!is.null(bibi$keywords)) bibi$keywords else '',
+    authorpos = if (!is.null(bibi$author)) {
+      pos = which(grepl('Saei', as.character(bibi$author)))
+      if (length(pos)) pos[1] else NA_integer_
+    } else NA_integer_,
     pmid = if (!is.null(bibi$pmid)) bibi$pmid else '',
     preprintdoi = if (!is.null(bibi$preprintdoi)) bibi$preprintdoi else '',
     scripts = if (!is.null(bibi$scripts)) bibi$scripts else '',
@@ -78,7 +82,12 @@ bib.df <- lapply(bib, function(bibi) {
 })
 
 bib.df = do.call(rbind, bib.df)
-bib.df %<>% mutate(rk=1:n())
+## Author position drives the listing order: first or co-first, then second
+## or third, then the rest. Co-first authorship is flagged by a 'cofirst'
+## keyword, since the bib file records only the published author order.
+bib.df %<>% mutate(rk=1:n(),
+                   authorgroup = ifelse(!is.na(authorpos) & (authorpos == 1 | grepl('cofirst', keywords)), 1,
+                                 ifelse(!is.na(authorpos) & authorpos <= 3, 2, 3)))
 
 ```
 
@@ -126,7 +135,7 @@ htmlCit <- function(df){
 }
 
 cat('<ul class="fa-ul">')
-dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(desc(year),rk,title) %>% do(htmlCit(.))
+dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(authorgroup,desc(year),rk,title) %>% do(htmlCit(.))
 cat('</ul>')
 
 ## cat('<h3>Consortia publications</h3>\n<ul class="fa-ul">')
