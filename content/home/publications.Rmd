@@ -51,6 +51,12 @@ bib.df <- lapply(bib, function(bibi) {
     # command name and the first word it wraps are both lost.
     title = if (!is.null(bibi$title)) gsub('\\{', '', gsub('\\}', '', gsub('\\\\[a-zA-Z]+', '', bibi$title))) else NA,
     year = if (!is.null(bibi$year)) as.numeric(bibi$year) else NA,
+    # Month as a number so entries from the same year keep their release order;
+    # entries without a month sort last within that year.
+    month = if (!is.null(bibi$month)) {
+      m = match(tolower(substr(as.character(bibi$month), 1, 3)), tolower(month.abb))
+      if (is.na(m)) 0 else m
+    } else 0,
     doi = if (!is.null(bibi$doi)) bibi$doi else NA,
     journal = if (!is.null(bibi$journal)) {
       gsub('.*\\}\\{(.*)\\}', '\\1', bibi$journal)
@@ -135,7 +141,7 @@ htmlCit <- function(df){
 }
 
 cat('<ul class="fa-ul">')
-dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(authorgroup,desc(year),rk,title) %>% do(htmlCit(.))
+dump = bib.df %>% filter(!grepl('Under review', journal), !grepl('no-website', keywords)) %>% group_by(authorgroup,desc(year),desc(month),rk,title) %>% do(htmlCit(.))
 cat('</ul>')
 
 ## cat('<h3>Consortia publications</h3>\n<ul class="fa-ul">')
