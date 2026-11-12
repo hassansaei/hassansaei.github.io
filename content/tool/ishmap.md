@@ -18,6 +18,9 @@ image_preview = "ISHMap.png"
 tags = ["Splicing", "Deep Intronic Variants", "In Silico Mutagenesis", "Antisense Oligonucleotides"]
 
 # Outbound links rendered as buttons on the tool page.
+# The browser will be served from the analysis repository once GitHub Pages is
+# enabled for it: https://hassansaei.github.io/Saei_deep_intronic_hotspots/
+# Set external_link and url_tool to that address then, and add the Zenodo DOI.
 url_code = "https://github.com/hassansaei/Saei_deep_intronic_hotspots"
 url_paper = "https://doi.org/10.64898/2026.09.10.26362533"
 
