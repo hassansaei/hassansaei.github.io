@@ -36,7 +36,7 @@
 
 &lt;p&gt;The browser gives, per gene, the summary statistics, the hotspot table with GRCh38 coordinates and q-values, and an intron view of the scored variants against the MANE Select transcript. Per-gene hotspot tables can be downloaded directly; the complete release, including the full variant tables and plots, is archived on Zenodo.&lt;/p&gt;
 
-&lt;p&gt;The interactive browser and the Zenodo record are in preparation. This page will link to them once they are published.&lt;/p&gt;
+&lt;p&gt;The Zenodo record holding the complete release is in preparation. This page will link to it once it is published.&lt;/p&gt;
 </description>
     </item>
     

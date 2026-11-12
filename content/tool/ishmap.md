@@ -17,10 +17,11 @@ image_preview = "ISHMap.png"
 # Tags: can be used for filtering.
 tags = ["Splicing", "Deep Intronic Variants", "In Silico Mutagenesis", "Antisense Oligonucleotides"]
 
+# Where the tool runs. The listing links straight to it.
+external_link = "https://hassansaei.github.io/Saei_deep_intronic_hotspots/"
+
 # Outbound links rendered as buttons on the tool page.
-# The browser will be served from the analysis repository once GitHub Pages is
-# enabled for it: https://hassansaei.github.io/Saei_deep_intronic_hotspots/
-# Set external_link and url_tool to that address then, and add the Zenodo DOI.
+url_tool = "https://hassansaei.github.io/Saei_deep_intronic_hotspots/"
 url_code = "https://github.com/hassansaei/Saei_deep_intronic_hotspots"
 url_paper = "https://doi.org/10.64898/2026.09.10.26362533"
 
@@ -39,4 +40,4 @@ Hotspots matter for therapy as much as for diagnosis. Variants that cluster in o
 
 The browser gives, per gene, the summary statistics, the hotspot table with GRCh38 coordinates and q-values, and an intron view of the scored variants against the MANE Select transcript. Per-gene hotspot tables can be downloaded directly; the complete release, including the full variant tables and plots, is archived on Zenodo.
 
-The interactive browser and the Zenodo record are in preparation. This page will link to them once they are published.
+The Zenodo record holding the complete release is in preparation. This page will link to it once it is published.
