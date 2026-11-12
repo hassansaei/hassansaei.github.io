@@ -9,7 +9,7 @@ subtitle = ""
 widget = "talks_all"
 
 # Order that this section will appear in.
-weight = 4
+weight = 5
 
 # Number of talks to list.
 count = 2
