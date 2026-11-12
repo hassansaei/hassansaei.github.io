@@ -206,7 +206,7 @@ publishDir = "docs"
 [[menu.main]]
   parent = "tools"
   name = "ISHMap"
-  url = "/tool/ishmap/"
+  url = "https://hassansaei.github.io/Saei_deep_intronic_hotspots/"
   weight = 2
 
 [[menu.main]]
