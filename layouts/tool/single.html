@@ -1,0 +1,43 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<article class="article article-project" itemscope itemtype="http://schema.org/SoftwareApplication">
+
+  {{ partial "header_image.html" . }}
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">{{ .Title }}</h1>
+      <span class="pub-authors">&nbsp;</span>
+      <span class="pull-right">
+        {{ partial "share.html" . }}
+      </span>
+    </div>
+
+    {{ with .Params.url_tool }}
+    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank">Open the tool</a>
+    {{ end }}
+    {{ with .Params.url_code }}
+    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank">Source code</a>
+    {{ end }}
+    {{ with .Params.url_docs }}
+    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank">Documentation</a>
+    {{ end }}
+    {{ with .Params.url_paper }}
+    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank">Paper</a>
+    {{ end }}
+
+    <div class="article-style" itemprop="description">
+      {{ .Content }}
+    </div>
+
+  </div>
+</article>
+
+<div class="container">
+  {{ partial "section_pager.html" . }}
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
