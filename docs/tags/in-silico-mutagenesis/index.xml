@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Hassan Saei</copyright>
-    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hassansaei.github.io/tags/in-silico-mutagenesis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ISHMap</title>
+      <link>https://hassansaei.github.io/tool/ishmap/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/tool/ishmap/</guid>
+      <description>ISHMap (In Silico Hotspot Map) reports deep intronic regions where single nucleotide substitutions are predicted to disrupt splicing more often than expected by chance. Every possible substitution in the introns of about 5,000 disease-associated genes is scored by in silico mutagenesis, and intervals enriched for spliceogenic variants are called as hotspots after Benjamini-Hochberg correction.
+Hotspots matter for therapy as much as for diagnosis. Variants that cluster in one interval can share a single antisense oligonucleotide, so one molecule can correct several variants carried by unrelated patients.</description>
+    </item>
     
     <item>
       <title>Mapping deep intronic mutational hotspots enables scalable therapy</title>

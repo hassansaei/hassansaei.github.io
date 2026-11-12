@@ -22,5 +22,15 @@
 The pipeline is alignment-free and built on Kestrel, with optional cross-validation by code-adVNTR. VNtyper 2 reorganizes it into a modular tool and adds VNtyper-Online, a web platform that runs an analysis in the browser without local bioinformatics infrastructure.</description>
     </item>
     
+    <item>
+      <title>ISHMap</title>
+      <link>https://hassansaei.github.io/tool/ishmap/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/tool/ishmap/</guid>
+      <description>ISHMap (In Silico Hotspot Map) reports deep intronic regions where single nucleotide substitutions are predicted to disrupt splicing more often than expected by chance. Every possible substitution in the introns of about 5,000 disease-associated genes is scored by in silico mutagenesis, and intervals enriched for spliceogenic variants are called as hotspots after Benjamini-Hochberg correction.
+Hotspots matter for therapy as much as for diagnosis. Variants that cluster in one interval can share a single antisense oligonucleotide, so one molecule can correct several variants carried by unrelated patients.</description>
+    </item>
+    
   </channel>
 </rss>

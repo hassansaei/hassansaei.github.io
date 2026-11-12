@@ -5,6 +5,9 @@ date = "2026-11-12"
 # Tool name.
 title = "VNtyper"
 
+# Order within the Tools list.
+weight = 1
+
 # Tool summary to display on the homepage.
 summary = "MUC1 VNTR Genotyping for ADTKD Diagnosis"
 

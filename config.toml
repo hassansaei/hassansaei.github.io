@@ -204,6 +204,12 @@ publishDir = "docs"
   weight = 1
 
 [[menu.main]]
+  parent = "tools"
+  name = "ISHMap"
+  url = "/tool/ishmap/"
+  weight = 2
+
+[[menu.main]]
   name = "Publications"
   url = "#publications"
   weight = 4
