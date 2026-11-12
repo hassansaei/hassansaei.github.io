@@ -1,7 +1,8 @@
 {{ $ := .root }}
 {{ $page := .page }}
 
-<!-- Tools widget. Cards link to the tool page, which carries the outbound links. -->
+<!-- Tools widget. Each tool is one line: name, then what it does. The name
+     opens external_link when set, otherwise the tool page on this site. -->
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
@@ -10,25 +11,19 @@
   <div class="col-xs-12 col-md-8">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
-    <div class="row">
+    <ul class="tool-list">
       {{ range $tool := where $.Data.Pages "Type" "tool" }}
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
-        <div class="card">
-          {{ with $tool.Params.image_preview }}
-          <a href="{{ $tool.Permalink }}" class="card-image hover-overlay">
-            <img src="{{ "/img/" | relURL }}{{ . }}" alt="" class="img-responsive">
-          </a>
-          {{ end }}
-          <div class="card-text">
-            <h4><a href="{{ $tool.Permalink }}">{{ $tool.Title }}</a></h4>
-            <div class="card-desription">
-              {{ with $tool.Params.summary }}<p>{{ . | markdownify }}</p>{{ end }}
-            </div>
-          </div>
-        </div>
-      </div>
+      {{ $url := $tool.Permalink }}
+      {{ $target := "" }}
+      {{ with $tool.Params.external_link }}
+      {{ $url = . }}
+      {{ $target = "target=\"_blank\"" }}
       {{ end }}
-    </div>
+      <li>
+        <a class="tool-name" href="{{ $url }}" {{ $target | safeHTMLAttr }}>{{ $tool.Title }}</a>{{ with $tool.Params.summary }}: {{ . | markdownify }}{{ end }}
+      </li>
+      {{ end }}
+    </ul>
 
   </div>
 </div>
