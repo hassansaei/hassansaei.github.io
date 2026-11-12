@@ -7,8 +7,10 @@
 }
 
 /* Tools listed as plain entries: name, then what the tool does. */
+/* Left margin matches Font Awesome's fa-ul, used by the publication list, so
+   both sections start at the same indent. */
 .tool-list {
-  margin: 0;
+  margin: 0 0 0 2.14285714em;
   padding: 0;
   list-style: none;
 }
