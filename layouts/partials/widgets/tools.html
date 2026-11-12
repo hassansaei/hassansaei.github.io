@@ -2,13 +2,18 @@
 {{ $page := .page }}
 
 <!-- Tools widget. Each tool is one line: name, then what it does. The name
-     opens external_link when set, otherwise the tool page on this site. -->
+     opens external_link when set, otherwise the tool page on this site.
+     The heading sits on its own full-width row so the list starts at the same
+     left margin as the publications section. -->
 <div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
+  <div class="col-xs-12 col-md-12 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
-  <div class="col-xs-12 col-md-8">
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-md-12">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     <ul class="tool-list">
