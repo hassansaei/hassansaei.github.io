@@ -6,7 +6,7 @@ date = "2026-11-12"
 title = "VNtyper"
 
 # Tool summary to display on the homepage.
-summary = "Genotyping of MUC1 coding VNTR variants from short-read sequencing, with browser-based analysis through VNtyper-Online"
+summary = "MUC1 VNTR Genotyping for ADTKD Diagnosis"
 
 # Optional image to display on the homepage (relative to `static/img/` folder).
 image_preview = "vntyper-online.png"
@@ -14,7 +14,10 @@ image_preview = "vntyper-online.png"
 # Tags: can be used for filtering.
 tags = ["ADTKD", "MUC1", "VNTR", "Genotyping"]
 
-# Outbound links rendered as buttons on this page.
+# Where the tool runs. The listing links straight to it.
+external_link = "https://vntyper.org"
+
+# Outbound links rendered as buttons on the tool page.
 url_tool = "https://vntyper.org"
 url_code = "https://github.com/hassansaei/VNtyper"
 url_paper = "https://doi.org/10.64898/2026.05.27.26352937"
