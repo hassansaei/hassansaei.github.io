@@ -92,7 +92,7 @@ publishDir = "docs"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["custom.css"]
   custom_js  = []
 
   # Publication types.
@@ -191,9 +191,17 @@ publishDir = "docs"
    weight = 2
 
 [[menu.main]]
+  identifier = "tools"
   name = "Tools"
   url = "#tools"
   weight = 3
+
+# One entry per tool, shown in the Tools dropdown.
+[[menu.main]]
+  parent = "tools"
+  name = "VNtyper"
+  url = "https://vntyper.org"
+  weight = 1
 
 [[menu.main]]
   name = "Publications"
