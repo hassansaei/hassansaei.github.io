@@ -1,0 +1,22 @@
+/* Open navbar dropdowns on hover. Bootstrap opens them on click, which is
+   kept on narrow screens where there is no hover. */
+@media (min-width: 768px) {
+  #navbar-main .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Tools listed as plain entries: name, then what the tool does. */
+.tool-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tool-list li {
+  margin-bottom: 0.75rem;
+}
+
+.tool-list .tool-name {
+  font-weight: 700;
+}
