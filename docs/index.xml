@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>VNtyper</title>
+      <link>https://hassansaei.github.io/tool/vntyper/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/tool/vntyper/</guid>
+      <description>&lt;p&gt;VNtyper genotypes frameshift variants in the coding variable number tandem repeat (VNTR) of &lt;em&gt;MUC1&lt;/em&gt;, the cause of autosomal dominant tubulointerstitial kidney disease (ADTKD-MUC1). The GC-rich 60 bp repeat is poorly covered by standard short-read pipelines, so these variants are routinely missed by exome and panel sequencing.&lt;/p&gt;
+
+&lt;p&gt;The pipeline is alignment-free and built on Kestrel, with optional cross-validation by code-adVNTR. VNtyper 2 reorganizes it into a modular tool and adds VNtyper-Online, a web platform that runs an analysis in the browser without local bioinformatics infrastructure.&lt;/p&gt;
+
+&lt;p&gt;Validation on simulated data generated with MucOneUp and on clinical exomes with independently confirmed genotypes is reported in the VNtyper 2 preprint, together with screening results from international chronic kidney disease referral programmes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A multimodal screening pipeline accelerates the discovery of engineered AAV capsids with podocyte tropism</title>
       <link>https://hassansaei.github.io/talk/esgct2026_screening/</link>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
@@ -150,15 +164,6 @@
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://hassansaei.github.io/talk/asmb2024/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genotyping coding VNTR in MUC1 gene in ADTKD using SRS data</title>
-      <link>https://hassansaei.github.io/talk/sfb1453/</link>
-      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hassansaei.github.io/talk/sfb1453/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2026 Hassan Saei</copyright>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hassansaei.github.io/tags/vntr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VNtyper</title>
+      <link>https://hassansaei.github.io/tool/vntyper/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://hassansaei.github.io/tool/vntyper/</guid>
+      <description>VNtyper genotypes frameshift variants in the coding variable number tandem repeat (VNTR) of MUC1, the cause of autosomal dominant tubulointerstitial kidney disease (ADTKD-MUC1). The GC-rich 60 bp repeat is poorly covered by standard short-read pipelines, so these variants are routinely missed by exome and panel sequencing.
+The pipeline is alignment-free and built on Kestrel, with optional cross-validation by code-adVNTR. VNtyper 2 reorganizes it into a modular tool and adds VNtyper-Online, a web platform that runs an analysis in the browser without local bioinformatics infrastructure.</description>
+    </item>
     
     <item>
       <title>VNtyper 2</title>
